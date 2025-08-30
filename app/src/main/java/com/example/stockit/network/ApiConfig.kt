@@ -47,7 +47,7 @@ class RetryInterceptor(private val maxRetries: Int = 3) : Interceptor {
 }
 
 object ApiConfig {
-    private const val BASE_URL = "https://test.vardhin.tech/"
+    private const val BASE_URL = "https://shashankshekharmishra.tech/"
     
     private val loggingInterceptor = HttpLoggingInterceptor().apply {
         level = HttpLoggingInterceptor.Level.BODY
